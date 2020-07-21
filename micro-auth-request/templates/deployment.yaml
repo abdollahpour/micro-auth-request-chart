@@ -34,7 +34,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           envFrom:
             - secretRef:
-              name: {{ include "micro-auth-request.fullname" . }}
+                name: {{ include "micro-auth-request.fullname" . }}
           ports:
             - name: http
               containerPort: 8080
