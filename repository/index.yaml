@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  micro-auth-request:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-07-21T20:56:11.360852+02:00"
+    description: A Helm chart for micro-auth-request
+    digest: 9c0c11e699b61fcb277ec388855238e11722d1d3fbbe3d44bd1617bf51f0c76a
+    name: micro-auth-request
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/abdollahpour/micro-auth-request-chart/master/repository/micro-auth-request-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-21T20:56:11.35982+02:00"
